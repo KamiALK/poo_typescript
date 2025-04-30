@@ -1,0 +1,21 @@
+git init
+
+npm  init -y
+
+npm i -D typescript
+
+
+npx --version
+
+npx tsc --init
+
+
+
+correr ARCHIVOS typescript
+npm i ts-node -D
+
+correr codigo de typescript
+npx ts-node
+
+
+
