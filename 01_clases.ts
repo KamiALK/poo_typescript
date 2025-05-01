@@ -4,6 +4,7 @@ export class my_fecha {
   dia: number;
 
 
+
   constructor(year: number, mes: number, dia: number) {
     this.year = year;
     this.mes = mes;
