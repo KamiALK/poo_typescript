@@ -9,7 +9,8 @@ npx --version
 
 npx tsc --init
 
-
+# instalar typescript como dependenciad de desarrollo
+npm i ts-node
 
 correr ARCHIVOS typescript
 npm i ts-node -D
@@ -18,4 +19,8 @@ correr codigo de typescript
 npx ts-node
 
 
+
+pasos para iniciar typescript en entorno de desarrollo
+
+npm install typescript --save-dev
 
