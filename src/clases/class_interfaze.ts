@@ -29,6 +29,7 @@ class ClaseProtegida extends ClasePublica {
     super(extraParams); // ✅ le pasas solo lo que quieras
     this.rol = extraParams.rol;
   }
+
 }
 
 
@@ -38,9 +39,9 @@ const usuario = new ClaseProtegida({
   rol: "Administrador"
 });
 
-console.log(usuario.nombre); // Kamilo
-console.log(usuario.rol);    // Administrador
-console.log(usuario.edad);   // 0 (valor por defecto)
+// console.log(usuario.nombre); // Kamilo
+// console.log(usuario.rol);    // Administrador
+// console.log(usuario.edad);   // 0 (valor por defecto)
 
 
 
@@ -48,7 +49,7 @@ console.log(usuario.edad);   // 0 (valor por defecto)
 //
 const data = {
   nombre: "Camilo",
-  email: "camilo@email.com",
+  // email: "camilo@email.com",
   rol: "usuario"
 };
 
