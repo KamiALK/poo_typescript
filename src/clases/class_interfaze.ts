@@ -4,7 +4,6 @@ interface PersonaParams {
   edad?: number;
   direccion?: string;
   email?: string;
-  // ...imagina hasta 100 campos
 }
 
 

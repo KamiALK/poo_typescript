@@ -11,7 +11,6 @@ console.log(clase_publica_obj.saludar())
 
 
 // privada
-
 const clase_privada_obj = new clase_privada;
 console.log(clase_privada_obj.saludar());
 
@@ -22,25 +21,24 @@ console.log(clase_privada_obj.saludar());
 //getter
 console.log(clase_privada_obj.nombre);
 
-//setter``
-//
-//
+//setter
 clase_privada_obj.nombre = "juanito";
 console.log(clase_privada_obj.nombre);
 console.log(clase_privada_obj.saludar())
 
 // vamos a revisar protegido
-//
-
 class clase_protegida extends clase_publica {
   public apellido: string;
-
   constructor(name: string, second_name: string, apellido: string,) {
     super(name, second_name);
     this.apellido = apellido;
-
   }
 }
+
+
+
+
+
 
 
 
