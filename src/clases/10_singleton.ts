@@ -1,6 +1,7 @@
 export class MyService {
   constructor(public name: String) { }
   getName() {
+
     return this.name;
   }
 
