@@ -16,3 +16,4 @@ export class clase_protegida {
   }
 
 }
+
